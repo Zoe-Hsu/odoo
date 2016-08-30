@@ -1,5 +1,5 @@
 {
-    'name': "Setting",
+    'name': "Setting1",
     'version': '1.0',
     'depends': [],
     'author': "alltop",
