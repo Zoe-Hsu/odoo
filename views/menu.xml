@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <menuitem id="setting" name="共同管理" sequence="1"></menuitem>
-        <menuitem id="setting_aid" name="輔助設定" parent="setting"></menuitem>
-            <menuitem id="setting_aid_system" name="系統設定" parent="setting_aid"
-                  action="setting_aid_system"></menuitem>
-            <menuitem id="setting_aid_company" name="公司基本維護" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_aid_tax" name="稅報資料維護" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_aid_supply" name="供應商維護" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_aid_relate" name="關聯科目設定" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_aid_shareclass" name="共用分錄類別維護" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_aid_accountperson" name="帳簿處理員維護" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_aid_engineering" name="工程維護" parent="setting_aid"
-                  action="setting_customer"></menuitem>
-        <menuitem id="setting_reference" name="參考資料" parent="setting"></menuitem>
-            <menuitem id="setting_reference_phrase" name="片語維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_bank" name="全國銀行維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_taxoffical" name="國稅稽徵機關維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_standerdclass" name="標準分錄類別維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_settlement" name="結算科目維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_propertysign" name="財簽科目維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_certificate" name="憑證種類維護" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_reference_holiday" name="國定假日設定" parent="setting_reference"
-                  action="setting_customer"></menuitem>
-        <menuitem id="setting_moveprocess" name="異動處理" parent="setting"></menuitem>
-            <menuitem id="setting_moveprocess_receivemailid" name="收件編號快速輸入" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_annualdatachange" name="資料年度轉換作業" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_companyidchange" name="公司代號修改作業" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_idchange" name="號碼重編作業" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_systemproduce" name="系統設定產生" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_engineeringidchange" name="工程編號變更作業" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_supplieridchange" name="公司供應商代號變耕" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_officerelate" name="總分支機構關聯" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_moveprocess_officemerge" name="總分支機構合併" parent="setting_moveprocess"
-                  action="setting_customer"></menuitem>
-        <menuitem id="setting_other" name="其它" parent="setting"></menuitem>
-            <menuitem id="setting_other_permissions" name="權限設定" parent="setting_other"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_other_accountclosing" name="關帳設定" parent="setting_other"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_other_manageimformation" name="公司管理情報" parent="setting_other"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_other_fastform" name="快捷視窗" parent="setting_other"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_other_relogin" name="重新登入" parent="setting_other"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_other_accountantsign" name="轉會計師簽證" parent="setting_other"
-                  action="setting_customer"></menuitem>
-        <menuitem id="setting_data" name="資料管理" parent="setting"></menuitem>
-            <menuitem id="setting_data_backup" name="資料備份" parent="setting_data"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_data_restore" name="資料回存" parent="setting_data"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_data_upgrade" name="資料庫升級" parent="setting_data"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_data_tool" name="資料庫工具" parent="setting_data"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_data_clear" name="清檔作業" parent="setting_data"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_data_import" name="扣繳資料匯入" parent="setting_data"
-                  action="setting_customer"></menuitem>
-            <menuitem id="setting_data_online" name="單機轉網路" parent="setting_data"
-                  action="setting_customer"></menuitem>
+        <menuitem id="setting" name="共同管理" sequence="1"/>
+        <menuitem id="setting_aid" name="輔助設定" parent="setting"/>
+            <menuitem id="setting_aid_companym" name="公司基本維護" parent="setting_aid"
+                  action="setting_aid_company"/>
+            <menuitem id="setting_aid_systemm" name="系統設定" parent="setting_aid"
+                  action="setting_aid_system"/>
+            <!--<menuitem id="setting_aid_tax" name="稅報資料維護" parent="setting_aid"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_aid_supply" name="供應商維護" parent="setting_aid"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_aid_relate" name="關聯科目設定" parent="setting_aid"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_aid_shareclass" name="共用分錄類別維護" parent="setting_aid"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_aid_accountperson" name="帳簿處理員維護" parent="setting_aid"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_aid_engineering" name="工程維護" parent="setting_aid"-->
+                  <!--action="setting_customer"></menuitem>-->
+        <!--<menuitem id="setting_reference" name="參考資料" parent="setting"></menuitem>-->
+            <!--<menuitem id="setting_reference_phrase" name="片語維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_bank" name="全國銀行維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_taxoffical" name="國稅稽徵機關維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_standerdclass" name="標準分錄類別維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_settlement" name="結算科目維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_propertysign" name="財簽科目維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_certificate" name="憑證種類維護" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_reference_holiday" name="國定假日設定" parent="setting_reference"-->
+                  <!--action="setting_customer"></menuitem>-->
+        <!--<menuitem id="setting_moveprocess" name="異動處理" parent="setting"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_receivemailid" name="收件編號快速輸入" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_annualdatachange" name="資料年度轉換作業" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_companyidchange" name="公司代號修改作業" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_idchange" name="號碼重編作業" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_systemproduce" name="系統設定產生" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_engineeringidchange" name="工程編號變更作業" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_supplieridchange" name="公司供應商代號變耕" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_officerelate" name="總分支機構關聯" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_moveprocess_officemerge" name="總分支機構合併" parent="setting_moveprocess"-->
+                  <!--action="setting_customer"></menuitem>-->
+        <!--<menuitem id="setting_other" name="其它" parent="setting"></menuitem>-->
+            <!--<menuitem id="setting_other_permissions" name="權限設定" parent="setting_other"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_other_accountclosing" name="關帳設定" parent="setting_other"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_other_manageimformation" name="公司管理情報" parent="setting_other"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_other_fastform" name="快捷視窗" parent="setting_other"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_other_relogin" name="重新登入" parent="setting_other"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_other_accountantsign" name="轉會計師簽證" parent="setting_other"-->
+                  <!--action="setting_customer"></menuitem>-->
+        <!--<menuitem id="setting_data" name="資料管理" parent="setting"></menuitem>-->
+            <!--<menuitem id="setting_data_backup" name="資料備份" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_data_restore" name="資料回存" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_data_upgrade" name="資料庫升級" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_data_tool" name="資料庫工具" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_data_clear" name="清檔作業" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_data_import" name="扣繳資料匯入" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
+            <!--<menuitem id="setting_data_online" name="單機轉網路" parent="setting_data"-->
+                  <!--action="setting_customer"></menuitem>-->
     </data>
 </openerp>

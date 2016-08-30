@@ -8,9 +8,9 @@
 
     """,
     'data': [
-                "views/setting_customer.xml",
+                "views/setting_aid_company.xml",
                 "views/menu.xml",
-                "views/setting_aid.xml"
+                "views/setting_aid_system.xml"
             ],
     'demo': [],
     'application': True,

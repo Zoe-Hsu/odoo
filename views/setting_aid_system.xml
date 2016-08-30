@@ -5,7 +5,7 @@
                 res_model="setting.aid.system"
                 view_mode="form"/>
     <record id="setting_aid_system_form" model="ir.ui.view">
-        <field name="name">setting_aid_system</field>
+        <field name="name">setting_aid_system_form</field>
         <field name="model">setting.aid.system</field>
         <field name="arch" type="xml">
             <form>
