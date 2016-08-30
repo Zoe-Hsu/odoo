@@ -4,6 +4,7 @@ from openerp import models, fields, api
 class setting_customer(models.Model):
     _name = 'setting.customer'
     #基本資料
+    currency_id = fields.Char(required=True, default="1")
     company =fields.Char(string="公司代號")
     companyname = fields.Char(string="公司名稱")
     companysname = fields.Char(string="公司簡稱")

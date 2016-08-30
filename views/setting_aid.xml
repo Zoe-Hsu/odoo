@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <act_window id="setting_aid_system_window"
+    <act_window id="setting_aid_system"
                 name="用戶系統設定"
                 res_model="setting.aid.system"
                 view_mode="form"/>
