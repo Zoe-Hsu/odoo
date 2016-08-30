@@ -4,7 +4,7 @@
         <menuitem id="setting" name="共同管理" sequence="1"></menuitem>
         <menuitem id="setting_aid" name="輔助設定" parent="setting"></menuitem>
             <menuitem id="setting_aid_system" name="系統設定" parent="setting_aid"
-                  action="setting_aid_system_window"></menuitem>
+                  action="setting_customer"></menuitem>
             <menuitem id="setting_aid_company" name="公司基本維護" parent="setting_aid"
                   action="setting_customer"></menuitem>
             <menuitem id="setting_aid_tax" name="稅報資料維護" parent="setting_aid"
