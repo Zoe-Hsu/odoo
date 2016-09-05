@@ -1,8 +1,8 @@
 # coding=utf-8
 from openerp import models, fields, api
 
-class setting_customer(models.Model):
-    _name = 'setting.customer'
+class setting_aid_customer(models.Model):
+    _name = 'setting.aid.company'
     #基本資料
     company =fields.Char(string="公司代號")
     companyname = fields.Char(string="公司名稱")

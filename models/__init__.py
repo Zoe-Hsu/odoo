@@ -1,2 +1,2 @@
-import setting_customer
-import setting_aid
+import setting_aid_company
+import setting_aid_system
